@@ -3,4 +3,4 @@ Question 9: Favorite Number: Store your favorite number in a variable. Then, cre
 Print that message.*/
 
 let favouriteNumber: number = 5; //Stores number in variable
-console.log("My favourite number is", favouriteNumber); //Prints message revealing facourite number
+console.log("My favourite number is", favouriteNumber); //Prints message revealing favourite number
