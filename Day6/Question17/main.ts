@@ -11,4 +11,8 @@ for (let i = guests.length-1; i > 2; i--){
     guests.pop();
 }
 
-console.log(`\nDear ${guests}, you're still invited to dinner.`);
+console.log("\n");
+
+guests.forEach(guest => {
+    console.log(`Dear ${guest}, you're still invited to dinner.`);
+});
