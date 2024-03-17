@@ -4,12 +4,12 @@ to a variable called alien_color. */
 
 let alien_color: string = "green";
 
-//The Version that passes
+//The version that passes
 if (alien_color == "green"){
     console.log("You just earned 5 points!");
 }
 
-//The Version that fails
+//The version that fails
 alien_color = "red";
 if (alien_color == "green"){
     //No output because the condition is false
