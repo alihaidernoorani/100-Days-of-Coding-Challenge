@@ -6,4 +6,4 @@ of people you are inviting to dinner.*/
 
 let guests: string[] = ["Albert Einstein", "Marie Curie", "Muhammad Ali Jinnah", "John Adams", "Thomas Jefferson", "Queen Elizebeth"]
 
-console.log(`I am inviting ${guests.length} people to dinner.`);; //Prints a message indicating the number of people invited to dinner
+console.log(`I am inviting ${guests.length} people to dinner.`); //Prints a message indicating the number of people invited to dinner
