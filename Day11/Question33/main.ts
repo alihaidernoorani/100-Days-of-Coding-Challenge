@@ -1,5 +1,5 @@
 /*Day 11
-Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes. */
+Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.*/
 
 let ordinal: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
