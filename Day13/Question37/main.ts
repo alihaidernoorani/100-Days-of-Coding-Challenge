@@ -2,7 +2,7 @@
 Question 37: Large Shirts: Default values in make_shirt().*/
 
 function make_shirt(size: string = "large", message: string = "I love TypeScript"){
-    console.log(`Making a ${size} t-shirt with the message ${message} printed on it.`);
+    console.log(`Making a ${size} t-shirt with the message "${message}" printed on it.`);
 }
 
 make_shirt(); //Calls function make_shirt() which uses the default values of shirt and message
