@@ -1,0 +1,13 @@
+/*Day 19
+Question 55: Double Numbers in an Array: Make a list of numbers.
+Then, use a trick to make a new list where each number is twice its original value.*/
+var numbers = [6, 7, 5, 9, 10];
+function doublenumber(numbers) {
+    var doublenumbers = [];
+    for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+        var num = numbers_1[_i];
+        doublenumbers.push(num * 2);
+    }
+    return doublenumbers;
+}
+console.log(doublenumber(numbers));
