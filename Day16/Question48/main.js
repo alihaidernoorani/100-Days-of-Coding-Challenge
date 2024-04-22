@@ -1,6 +1,8 @@
 /*Day 16
-Question 48: Combining Arrays with Spread Operator: Suppose you're comparing prices of two different sets of laptops.
-Use the spread operator to combine these arrays into a single array sorted in ascending order, then log the result. */
+Question 48: Combining Arrays with Spread Operator:
+Suppose you're comparing prices of two different sets of laptops.
+Use the spread operator to combine these arrays into a single array sorted in ascending order,
+then log the result. */
 var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
         if (ar || !(i in from)) {
