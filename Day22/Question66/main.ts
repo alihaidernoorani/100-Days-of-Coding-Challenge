@@ -6,4 +6,4 @@ function checkBothTrue(value1: boolean, value2: boolean): boolean{
    return value1 && value2; //Returns true if both of the values are true otherwise returns false
 }
 
-console.log(checkBothTrue(true, true));
+console.log(checkBothTrue(true, false));
