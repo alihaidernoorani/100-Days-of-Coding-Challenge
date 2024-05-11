@@ -13,4 +13,4 @@ function printNumbers (){
     console.log("i outside loop is " + i) 
 }
 
-printNumbers(); //This shows that let `i` to the loop 
+printNumbers(); 
