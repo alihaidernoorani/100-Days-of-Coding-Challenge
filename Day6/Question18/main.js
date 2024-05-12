@@ -1,22 +1,14 @@
+"use strict";
 /*Day 6
 Question 18: Seeing the World: Think of at least five places you’d like to visit.
 */
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var places = ["Paris", "London", "New York", "Berlin", "Amsterdam"];
+let places = ["Paris", "London", "New York", "Berlin", "Amsterdam"];
 console.log("Original list of places: ", places);
 //Sorts the list alphabetically using the spread operator. It has no effect on the original list
-console.log("Alphabetical order:", __spreadArray([], places, true).sort());
+console.log("Alphabetical order:", [...places].sort());
 console.log("Original list: ", places);
 //Sorts the list in reversed alphabetical order using the spread operator. It has no effect on the original list
-console.log("Reversed alphabetical order: ", __spreadArray([], places, true).sort().reverse());
+console.log("Reversed alphabetical order: ", [...places].sort().reverse());
 console.log("Original list: ", places);
 //Reverses the places list
 console.log("Reversed order:", places.reverse());

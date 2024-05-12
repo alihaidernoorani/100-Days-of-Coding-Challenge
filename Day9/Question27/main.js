@@ -1,9 +1,10 @@
+"use strict";
 /*Day 9
 Question 27: Alien Colors #3: Convert your if-else chain to handle three colors: green, yellow, red.
 */
 //The version where the alien colour is green
 console.log("The version where the alien colour is green");
-var alien_color = "green";
+let alien_color = "green";
 if (alien_color == "green") {
     console.log("You earned 5 points!");
 }

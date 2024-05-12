@@ -1,7 +1,8 @@
+"use strict";
 /*Day 9
 Question 25: Alien Colors #1: Imagine an alien was just shot down in a game. Assign 'green', 'yellow', or 'red'
 to a variable called alien_color. */
-var alien_color = "green";
+let alien_color = "green";
 //The version that passes
 if (alien_color == "green") {
     console.log("You just earned 5 points!");

@@ -1,6 +1,7 @@
+"use strict";
 /*Day 10
 Question 28: Stages of Life: Determine a person’s life stage with an if-else chain.*/
-var age = 50;
+let age = 50;
 if (age < 2) {
     console.log("The person is a baby");
 }

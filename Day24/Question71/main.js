@@ -6,7 +6,7 @@ age = 63;
 console.log(age); // Output: 63
 var pi = 3.142;
 try {
-    pi = 5; // This will throw an error
+    //pi = 5; // This will throw an error
 }
 catch (error) {
     console.log("Error: Can't reassign a `const`-declared variable.");

@@ -1,7 +1,8 @@
+"use strict";
 /*Day 11
 Question 33: Ordinal Numbers: Display numbers with their ordinal suffixes.*/
-var ordinal = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (var i = 0; i < ordinal.length; i++) {
+let ordinal = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < ordinal.length; i++) {
     if (ordinal[i] == 1) {
         console.log(ordinal[i] + "st");
     }

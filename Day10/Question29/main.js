@@ -1,6 +1,7 @@
+"use strict";
 /*Day 10
 Question 29: Favorite Fruit: Create an array for your favorite fruits and check if certain fruits are included.*/
-var favorite_fruits = ["apple", "orange", "banana"];
+let favorite_fruits = ["apple", "orange", "banana"];
 if (favorite_fruits.indexOf("banana") !== -1) {
     console.log("You really like bananas");
 }

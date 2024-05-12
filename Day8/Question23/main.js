@@ -1,7 +1,8 @@
+"use strict";
 /*Day 8
 Question 23: Conditional Tests: Write a series of conditional tests. Predict the results of each test.*/
-var number1 = 3;
-var number2 = 5;
+let number1 = 3;
+let number2 = 5;
 console.log("Is number1 greater than number2?");
 console.log(number1 > number2); //False
 console.log("Is number1 equal to number2?");

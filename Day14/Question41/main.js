@@ -1,8 +1,9 @@
+"use strict";
 /*Day 14
 Question 41: Magicians: Display magician names from an array.*/
-var magicians = ["Harry Houdini", "David Copperfield", "Penn & Teller"]; //Saves the magicians name in an array
+let magicians = ["Harry Houdini", "David Copperfield", "Penn & Teller"]; //Saves the magicians name in an array
 function show_magicians(magicians) {
-    magicians.forEach(function (magician) {
+    magicians.forEach(magician => {
         console.log(magician); //Iterates over each magician name using forEach method and then display the names
     });
 }
