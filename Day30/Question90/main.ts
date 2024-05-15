@@ -4,7 +4,7 @@ check if a variable's value is NaN (Not a Number)
 and return a boolean result.*/
 
 function checkValue (value: any): boolean{
-    return isNaN(value); //Returns true if the variable is not a number otherwise return false
+    return isNaN(value); //Returns true if the variable is not a number otherwise returns false
 }
 
 console.log(checkValue("Hello"));
