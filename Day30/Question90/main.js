@@ -1,4 +1,3 @@
-"use strict";
 /*Day 30
 Question 90: Checking if a Value is NaN: Demonstrate how to
 check if a variable's value is NaN (Not a Number)
