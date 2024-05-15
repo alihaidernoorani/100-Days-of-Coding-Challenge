@@ -1,4 +1,3 @@
-"use strict";
 /*Day 30
 Question 88: Rounding to the Nearest Integer:
 Write a function that takes a decimal number as input
