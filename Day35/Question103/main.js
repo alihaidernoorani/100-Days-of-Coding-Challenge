@@ -1,8 +1,7 @@
-"use strict";
 /*Day 35
 Question 103: Write a function that returns a random boolean value, true or false.*/
-function randomBoolean() {
-    let variable = Math.random();
-    return variable > 0.5;
+// This function returns a random boolean value
+function checkBoolean() {
+    return Math.random() > 0.5; // Returns true if the random number is greater than 0.5
 }
-console.log(randomBoolean());
+console.log(checkBoolean()); // The output would be true or false at random
