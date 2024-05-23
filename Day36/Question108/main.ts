@@ -2,7 +2,7 @@
 Question 108: Compare two strings to check if they are identical, ignoring case sensitivity.*/
 
 function stringCheck (str1: string, str2: string): boolean{
-    return (str1.toLowerCase() === str2.toLowerCase());
+    return (str1.toLowerCase() === str2.toLowerCase()); // Converts both strings to lowercase and compares
 }
 
 console.log(stringCheck("ali", "Ali"));
