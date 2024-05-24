@@ -2,10 +2,10 @@
 Question 111: Use an if-else-if chain to categorize a person's age group (child, teenager, adult).*/
 var age = 25;
 // Categorizes the age group
-if (age > 0 && age <= 13) {
+if (age < 13) {
     console.log("The person is a child");
 }
-else if (age > 13 && age <= 18) {
+else if (age <= 19) {
     console.log("The person is a teenager");
 }
 else {
