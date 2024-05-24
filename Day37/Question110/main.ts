@@ -11,7 +11,7 @@ function assignGrade(score: number): string {
         return "C";
     } else if (score >= 60) {
         return "D";
-    } else{
+    } else {
         return "F";
     }
 }
