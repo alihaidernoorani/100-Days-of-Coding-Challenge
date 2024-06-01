@@ -1,5 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.add = void 0;
-const add = (a, b) => a + b;
+// In file: mathFunctions.ts
+var add = function (a, b) { return a + b; };
 exports.add = add;
+// This line exports an add function from mathFunction.ts

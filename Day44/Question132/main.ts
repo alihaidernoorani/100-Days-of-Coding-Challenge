@@ -11,8 +11,3 @@ import addNumbers from "./namedanddefaultexport";
 console.log(addNumbers(5,6));
 console.log(subtractNumbers(7,6));
 console.log(multiplyNumbers(5,6));
-
-
-
-
-
