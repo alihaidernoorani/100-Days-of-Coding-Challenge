@@ -1,5 +1,5 @@
-/*Day 44
-Question 132: Discuss the difference between default and named exports in JavaScript modules.*/
+/* Day 44
+Question 132: Discuss the difference between default and named exports in JavaScript modules. */
 
 // There are multiple named exports in a module. They are shown in braces
 import { subtractNumbers } from "./namedanddefaultexport";
