@@ -5,4 +5,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // In another file where you want to use the add function:
 var mathfunction_1 = require("./mathfunction");
 console.log((0, mathfunction_1.add)(5, 3));
-// Demonstrates importing the add function from mathFunctions.ts and using it.
+// Demonstrates importing the add function from mathFunction.ts and using it.

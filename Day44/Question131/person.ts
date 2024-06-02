@@ -1,4 +1,4 @@
-// In file: Person.ts
+// In file: person.ts
 export class Person {
     name: string;
     constructor (name: string){

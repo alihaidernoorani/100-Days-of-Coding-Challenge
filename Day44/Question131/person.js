@@ -1,15 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Person = void 0;
-// In file: Person.ts
-var Person = /** @class */ (function () {
-    function Person(name) {
+// In file: person.ts
+class Person {
+    constructor(name) {
         this.name = name;
     }
-    Person.prototype.greet = function () {
-        console.log("Hello, my name is ".concat(this.name));
-    };
-    return Person;
-}());
+    greet() {
+        console.log(`Hello, my name is ${this.name}`);
+    }
+}
 exports.Person = Person;
 // Exports the Person class
