@@ -9,7 +9,7 @@ for (let i = 0; i < 5; i++) {
 // Reserved word: let - used to declare a block scoped local variable
 let num: number = 6;
 
-// Reserved word: if - used to execute a block of code if the statement is true
+// Reserved word: if - used to execute a block of code only if a specified condition is true
 if (num < 5){
     console.log(`The number is less than 5`);
 }
