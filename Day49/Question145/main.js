@@ -1,14 +1,12 @@
-"use strict";
 /* Day 49
 Question 145: Create a function that accepts a callback and invokes it with some arguments. */
-function sumOfRandomNumbers() {
-    const num1 = Math.floor(Math.random() * 10);
-    console.log(num1);
-    const num2 = Math.floor(Math.random() * 10);
-    console.log(num2);
-    sumNumbers(num1, num2);
+// This function accepts a callback function and invokes it with given arguments
+function executeCallback(callback, arg1, arg2) {
+    callback(arg1, arg2); // Invokes the callback with the specified arguments
 }
-function sumNumbers(num1, num2) {
-    console.log(num1 + num2);
-}
-sumOfRandomNumbers();
+// Example callback function that adds two numbers
+var add = function (a, b) {
+    console.log(a + b); // Outputs the sum of a and b
+};
+executeCallback(add, 5, 3); // Outputs: 8
+// Demonstrates invoking a callback function with arguments to perform an addition
