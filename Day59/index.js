@@ -70,7 +70,7 @@ while (i <= 3 ){
 
 do {
     let num = prompt("Enter number greater than 100");
-} while (number <= 100 && num)
+} while (num <= 100 && num)
 
 
 // Q: An integer number greater than 1 is called a prime if it cannot be divided without a remainder by anything except 1 and itself. 
@@ -128,18 +128,18 @@ else {
 
 // Q: Rewrite the code below using a single switch statement:
 
-let a = +prompt('a?', '');
+// let a = +prompt('a?', '');
 
-if (a == 0) {
-  alert( 0 );
-}
-if (a == 1) {
-  alert( 1 );
-}
+// if (a == 0) {
+//   alert( 0 );
+// }
+// if (a == 1) {
+//   alert( 1 );
+// }
 
-if (a == 2 || a == 3) {
-  alert( '2,3' );
-}
+// if (a == 2 || a == 3) {
+//   alert( '2,3' );
+// }
 
 // Ans:
 
