@@ -14,7 +14,7 @@ const area = calculateRectangleArea(long, width);
 console.log(`The area of the rectangle is: ${area}`);
 
 
-// Optional Parameters
+// Optional Parameter
 
 function greetOptional(name: string, age?: number) {
     if (age !== undefined) {
@@ -28,7 +28,7 @@ greetOptional("Alice"); // Output: "Hello, Alice!"
 greetOptional("Bob", 30); // Output: "Hello, Bob! You are 30 years old."
 
 
-// Default Parameters
+// Default Parameter
 
 function greetDefault(name: string, age: number = 25) {
     console.log(`Hello, ${name}! You are ${age} years old.`);
@@ -37,6 +37,8 @@ function greetDefault(name: string, age: number = 25) {
 greetDefault("Alice"); // Output: "Hello, Alice! You are 25 years old."
 greetDefault("Bob", 30); // Output: "Hello, Bob! You are 30 years old."
 
+
+// Rest Parameter
 
 // Function with a rest parameter and type annotations
 function addAll(...nums: number[]): number {
