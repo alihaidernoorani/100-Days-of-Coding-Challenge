@@ -59,6 +59,8 @@ const addWithArrow = (num1: number, num2: number): number => num1 + num2;
 console.log(addWithArrow(10, 20)); // Output: 30
 
 
+// Anonymous Function
+
 const add = function (num1: number, num2: number): number {
     return num1 + num2;
 };
@@ -66,7 +68,7 @@ const add = function (num1: number, num2: number): number {
 console.log(add(10, 20)); // Output: 30
 
 
-// void & never
+// void & never 
 
 // void
 function greet(name: string): void {
