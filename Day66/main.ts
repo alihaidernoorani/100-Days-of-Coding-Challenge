@@ -56,46 +56,46 @@ type MyStringOrNumber = string | number;
 let myValue: MyStringOrNumber = 10;
 
 // let's explore another example, this time using a Type Alias with objects.
-// type Person = {
-//     name: string;
-//     age: number;
-//     email?: string;
-// };
-  
-// const alice: Person = {
-//     name: "Alice",
-//     age: 30,
-//     email: "alice@example.com",
-// };
-
-// const bob: Person = {
-//     name: "Bob",
-//     age: 25,
-// };
-
-// console.log(alice);
-// console.log(bob);
-  
-// another example
-type Employee = {
+type Person = {
     name: string;
     age: number;
     email?: string;
 };
   
-const alice: Employee = {
+const alice: Person = {
     name: "Alice",
     age: 30,
     email: "alice@example.com",
 };
-  
-const bob: Employee = {
+
+const bob: Person = {
     name: "Bob",
     age: 25,
 };
+
+console.log(alice);
+console.log(bob);
   
-  console.log(alice);
-  console.log(bob);
+// another example
+// type Employee = {
+//     name: string;
+//     age: number;
+//     email?: string;
+// };
+  
+// const alice: Employee = {
+//     name: "Alice",
+//     age: 30,
+//     email: "alice@example.com",
+// };
+  
+// const bob: Employee = {
+//     name: "Bob",
+//     age: 25,
+// };
+  
+console.log(alice);
+console.log(bob);
 
 
 // Intersection Type
