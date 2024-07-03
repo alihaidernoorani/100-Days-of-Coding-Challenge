@@ -9,7 +9,7 @@ interface PersonEx1 {
 const John: PersonEx1 = {
     name: "John",
     age: 30,
-}
+};
 
 // In this example, we define an interface PersonEx1 with two properties: name (a string) and age (a number). 
 // We then create an object John that adheres to this interface.
