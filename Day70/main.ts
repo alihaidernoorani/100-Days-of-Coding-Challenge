@@ -38,6 +38,7 @@ Sarah.greet("Hello, TypeScript!"); // Output: Sarah says: Hello, TypeScript!
 
 
 // ReOpen The Interface And Use Cases
+
 // Homepage Interface Declaration
 interface Settings {
     readonly theme: boolean;
@@ -64,6 +65,7 @@ let userSettings: Settings = {
 
 
 // HTMLImageElement
+
 // In TypeScript, HTMLImageElement is a built-in interface that represents an HTML <img> element. This interface extends the HTMLElement interface and provides additional properties and methods specifically related to images.
 const imgElement: HTMLImageElement = document.createElement ("img");
 imgElement.src = "image.jpg";
@@ -127,7 +129,7 @@ const Labrador2: Monkey = {
     bark() {
       console.log("Woof!");
     },
-  };
+};
 
 // 3. Compatibility
 
