@@ -87,7 +87,7 @@ console.log(productEx.getProductInfo()); // Updated price: ID: 1, Name: Widget, 
 // Attempting to set a negative price triggers the setter logic
 productEx.price = -5; // Price cannot be negative.
 // Class Static Members
-// Static members in a class are properties or methods that belong to the class itself, rather than to instances of the class. This means you can access them without creating an instance of the class.
+// Static members in a class are properties or methods that belong to the class itself, rather than to instances of the class. This means you can access them without creating an instance of the class. They are defined using the static keyword in TypeScript. In this case, the static member nextId is used to manage unique IDs for all instances of the ProductStaticMembers class.
 class ProductStaticMembers {
     constructor(id, name) {
         this.id = id;
@@ -107,27 +107,27 @@ const product1static = new ProductStaticMembers(ProductStaticMembers.generateNex
 const product2static = new ProductStaticMembers(ProductStaticMembers.generateNextId(), "Gadget");
 console.log(product1static.getProductInfo()); // ID: 1, Name: Widget
 console.log(product2static.getProductInfo()); // ID: 2, Name: Gadget
-// Class Implement Interface
-class ProductImplementInterface {
+class Product1 {
     constructor(id, name) {
         this.id = id;
         this.name = name;
     }
     static generateNextId() {
-        return ProductImplementInterface.nextId++;
+        return Product1.nextId++;
     }
     getProductInfo() {
         return `ID: ${this.id}, Name: ${this.name}`;
     }
 }
 // 'private' property
-ProductImplementInterface.nextId = 1;
+Product1.nextId = 1;
 // Generate unique IDs for products using the static method
-const product1implement = new ProductImplementInterface(ProductImplementInterface.generateNextId(), "Widget");
-const product2implement = new ProductImplementInterface(ProductImplementInterface.generateNextId(), "Gadget");
-console.log(product1implement.getProductInfo()); // ID: 1, Name: Widget
-console.log(product2implement.getProductInfo()); // ID: 2, Name: Gadget
+const product1 = new Product1(Product1.generateNextId(), "Widget");
+const product2 = new Product1(Product1.generateNextId(), "Gadget");
+console.log(product1.getProductInfo()); // ID: 1, Name: Widget
+console.log(product2.getProductInfo()); // ID: 2, Name: Gadget
 // Abstract Classes and Members
+// Abstract classes are used as blueprints for other classes. They cannot be instantiated on their own but can be subclassed by other classes. Abstract classes can also contain abstract methods, which are declared but not implemented in the abstract class itself. Subclasses are required to provide implementations for these abstract methods.
 class AbstractItem {
     constructor(id, name) {
         this.id = id;
@@ -151,6 +151,7 @@ const item2 = new Item(AbstractItem.generateNextId(), "Gadget");
 console.log(item1.getItemInfo()); // ID: 1, Name: Widget
 console.log(item2.getItemInfo()); // ID: 2, Name: Gadget
 // Polymorphism & Method Override
+// This code example demonstrates the concept of polymorphism and method override in TypeScript, which is commonly used in object-oriented programming. It defines abstract classes and concrete subclasses to illustrate these concepts.
 // Define an abstract class
 class AbstractEntity {
     constructor(id, name) {
